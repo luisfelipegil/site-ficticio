@@ -1,0 +1,413 @@
+/* Estilos Gerais */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Estilos do Cabeçalho */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 20px;
+
+    
+}
+
+.buttons .button {
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.button.cadastrar {
+    background-color: #4a3aff;
+    color: #fff;
+}
+
+.button.login {
+    background-color: transparent;
+    border: 1px solid #000;
+    color: #000;
+}
+
+/* Estilos do Conteúdo */
+
+.subcontainer {
+    display: flex;
+    justify-content: center;
+    margin-right: 16px; 
+}
+
+.subcontainer img {
+    margin-top: 50px; 
+    margin-left: 4  5px;
+}
+
+
+.content {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 48px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.blue-text {
+    color: #007bff;
+}
+
+.description {
+    font-size: 24px;
+    line-height: 1.5;
+    color: #6c757d;
+    margin-bottom: 40px;
+}
+
+/* Estilos dos Clientes */
+.clients {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.client-card {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+/* Estilos do Vídeo */
+
+.video-container {
+    position: relative; 
+    text-align: center; 
+    text-align: center;
+    padding: 20px;
+}
+
+.button-container {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
+/* Estilos da Seção Por que Escolher */
+.escolher {
+    text-align: left; 
+    padding: 40px 20px;
+    
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.card {
+    width: calc(33.33% - 20px);
+    padding: 20px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    border-radius: 5px;
+    background: rgba(237, 235, 255, 1); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: Fixed (356px)px;
+    height: Fixed (356px)px;
+    padding: 24px 0px 0px 0px;
+    gap: 24px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    text-align: right;
+
+}
+
+.card a {
+        display: inline-block;
+        width: 129px;
+        height: 42px; 
+        padding: 8px 16px; 
+        margin: 0; 
+        gap: 8px; 
+        border-radius: 4px 0 0 0; 
+        background: rgba(74, 58, 255, 1); 
+        color: #fff; 
+        text-decoration: none; 
+        opacity: 1; 
+        text-align: center; 
+        line-height: 26px; 
+        font-size: 16px; 
+    }
+    
+
+.card h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #1d0dcc;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #6c757d;
+    margin-bottom: 10px;
+    text-align: center; 
+}
+
+
+.saiba-mais  {
+    color: #1d0dcc;
+    
+}
+
+.saiba-mais:hover {
+    text-decoration: underline;
+}
+
+
+/* Estilos dos Cursos */
+.cursos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.course {
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative; 
+}
+
+.course img {
+    width: 498px;
+    height: 250px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+}
+
+.course h3 {
+    width: Hug (498px)px;
+    height: Hug (152px)px;
+    gap: 16px;
+    opacity: 0px;
+    width: 498px;
+    height: 58px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.course p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #6c757d;
+    margin-bottom: 20px;
+    margin-top: 10px; 
+}
+
+/* Estilos dos Botões */
+.buttons {
+    position: 10px; 
+    bottom: 10px;
+    left: 50px; 
+   
+}
+
+.buttons button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px; 
+}
+
+.buttons .salvar {
+    background-color: #f8f4f4;
+    color: #090101;
+}
+
+.buttons .comecar {
+    background-color: #007bff;
+    color: #fff;
+}
+
+
+/* Estilos dos Preços */
+.precos h2{
+    width: 96px;
+height: 38px;
+top: 3233px;
+left: 162px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.precos h3{
+    width: 831px;
+height: 52px;
+top: 3287px;
+left: 162px;
+gap: 0px;
+opacity: 0px;
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+
+
+}
+
+.precos {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.price-card {
+    display: inline-block;
+    width: 350px;
+    padding: 24px;
+    margin: 0 20px 20px 0;
+    border-radius: 4px;
+    background: rgba(249, 249, 249, 1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.price-card h3 {
+    padding: 2px 24px;
+    border-radius: 4px 0 0 0;
+    background: rgba(245, 233, 252, 1);
+    border-bottom: 1px solid #ccc;
+    margin: 0;
+}
+
+.price-card p {
+    padding: 16px 24px;
+    margin: 0;
+}
+
+.price-card .button {
+    display: block;
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 0 0 4px 4px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.price-card:last-child {
+    margin-right: 0;
+}
+
+/* Estilos das Perguntas Frequentes */
+.faq {
+    width: 1116px;
+    top: 1500px; 
+    left: 162px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.faq h2 {
+    width: 160px;
+    height: 76px;
+    top: 3843px;
+    left: 1118px;
+    gap: 0px;
+    opacity: 0px;
+    
+    
+}
+
+.faq h3 {
+    width: 545px;
+    height: 78px;
+    top: 3935px;
+    left: 733px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: right;
+
+}
+
+.faq-item {
+    width: Hug (546px)px;
+height: Hug (304px)px;
+top: 3935px;
+left: 162px;
+gap: 16px;
+opacity: 0px;
+
+}
+
+.footer {
+    width: 1500px;
+    height: 200px;
+    color: #fff;
+    background-color: rgba(31, 24, 107, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img {
+    width: 100px; 
+    height: auto;
+    margin-bottom: 16px; 
+}
+
+.footer p {
+    width: 195px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: center;
+    margin: 0;
+    padding: 8px 16px;
+}
+
+.faq-item .body {
+    display: none;
+}
